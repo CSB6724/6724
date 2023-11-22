@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--SEO (Search Engine optimaization)  -->
+    <title>성빈이가 꿈꾸는 삶</title>
+    <meta name="description" 
+    content="성빈이가 꿈꾸는 삶에 대한 사이트"/>
+    <meta name="author" content="Kim_chung_ju"/>
+    <link rel="shortcut icon" href="images/20231112_110538.png" 
+    type="image/x-icon"/>
+
+    <!-- OG (Open graph Data) -->
+    <meta property="og:title" content="성빈이가 꿈꾸는 삶"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="배포 후 주소 입력"/>
+    <meta property="og:image" content="배포 후 이미지 입력"/>
+
+    <!-- Google Font (구글 폰트 : 글씨체) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (폰트 어썸 : 이미지 제공 서비스) -->
+    <script src="https://kit.fontawesome.com/1fbd5100da.js"
+    crossorigin="anonymous"></script>
+
+    <!-- CSS (씨에스에스 연결) -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Java Script (자바스크립트 연결) -->
+    <script type="module" src="src/main.js"
+    defer></script>
+    <script type="module" src="src/active_menu.js"
+    defer></script>
+    <script type="module" src="src/projects.js"
+    defer></script>
+
+</head>
+<body>
+    <!-- Header (맨 위에 상단 부분) -->
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo__img" src="images/20231112_110538.png" alt="logo">
+            <h1 class="header__logo__title">
+                <a href="#">최성빈</a></h1>
+        </div>
+        <nav class="header__nav">  
+            <ul class="header__menu">
+                <li><a class="header__menu__item active" href="#home">홈</a></li>
+                <li><a class="header__menu__item" href="#about">소개</a></li>
+                <li><a class="header__menu__item" href="#skills">특징</a></li>
+                <li><a class="header__menu__item" href="#work">꿈을 위해 할 일</a></li>
+                <li><a class="header__menu__item" href="#testimonials">닮고싶은 인물</a></li>
+                <li><a class="header__menu__item" href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+        <button class="header__toggle" aria-label="navigation menu toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </header>
+    <!-- Main (전체적인 화면) -->
+    <main>
+        <!-- Home (홈) -->
+        <section id="home">
+            <div class="home__container">
+                <img class="home__avatar" 
+                src="images/20231112_110538.png" 
+                alt="my profile">
+                <h2 class="home__title">안녕하세요.<br> 
+                    성빈이가 꿈꾸는 삶을 소개합니다.
+                </h2>
+                <p class="home__description">생생하게 꿈꾸면 현실이 된다.</p>
+                <a class="home__contact" href="#contact">연락하기</a>
+            </div>
+        </section>
+        <!-- About (소개) -->
+        <section id="about" class="section max-container">
+            <h2 class="title">소개</h2>
+            <p class="description">
+                꿈을 위해 할 일
+            </p>
+            <ul class="majors">
+                <li class="major">
+                    <i class="fa-solid fa-star major__icon"></i>
+                    <p class="major__title">남극 가기</p>
+                    <p>남극에 대해 공부하기</p>
+                </li>
+                <li class="major">
+                    <i class="fa-regular fa-star major__icon"></i>
+                    <p class="major__title">세계 일주</p>
+                    <p>돈 많이 벌기</p>
+                </li>
+                <li class="major">
+                    <i class="fa-solid fa-star-half-stroke major__icon"></i>
+                    <p class="major__title">봉사하기</p>
+                    <p>아프리카 가서 봉사하기</p>
+                </li>
+            </ul>
+        </section>
+        <!-- Skills (특징) -->
+        <section id="skills" class="section">
+            <h2 class="title">특징</h2>
+            <p class="description">나의 능력치 & 성격 & 아이템</p>
+            <p>나는 성격이 참 좋은 사람입니다 <br> 
+                나는 공부를 참 잘합니다 <br>
+                나는 운동도 참 잘합니다 <br>
+                나는 게임도 참 잘합니다
+            </p>
+            <div class="max-container">
+                <div class="skills">
+                    <section class="skills__coding">
+                        <h3 class="skills__title">나의 능력치</h3>
+                        <ul>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>일상운</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 90%;">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>레이나 원챔</span>
+                                    <span>87%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 87%;"></div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>지식</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 70%;"></div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>역사</span>
+                                    <span>67%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 67%;"></div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>암기</span>
+                                    <span>60%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 60%;"></div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>팀운</span>
+                                    <span>10%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 10%;"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="skills__tools">
+                        <h3 class="skills__title">가지고 싶은 것</h3>
+                        <ul>
+                            <li>문상</li>
+                            <li>애플 탭</li>
+                            <li>벤큐 240Hz</li>
+                            <li>우팅 키보드</li>
+                        </ul>
+                    </section>
+                    <section class="skills__etc">
+                        <h3 class="skills__title">특징</h3>
+                        <ul>
+                            <li>게임 잘 함</li>
+                            <li>편집 잘 함</li>
+                            <li>컴터 지식 높음</li>
+                            <li>코딩 잘 함</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>            
+        </section>
+        <!-- Work (꿈을 위해 할 일) -->
+        <section id="work" class="section">
+            <div class="max-container">
+                <h2 class="title">꿈을 위해 할 일</h2>
+                <p class="description">
+                    꿈꾸는 삶을 위해 필요한 일들
+                </p>
+                <ul class="categories">
+                    <li>
+                        <button class="category category--selected" data-category="all">ALL 
+                            <span class="category__count">8</span></button>
+                    </li>
+                    <li><button class="category" data-category="number1">할일1 <span class="category__count">3</span></button></li>
+                    <li><button class="category" data-category="number2">할일2 <span class="category__count">2</span></button></li>
+                    <li><button class="category" data-category="number3">할일3 <span class="category__count">3</span></button></li>
+                </ul>
+                <ul class="projects">
+                    <li class="project" data-type="number1">
+                        <a href="#" target="_blank">
+                            <img src="images/155790763a5c9ac.jpg" 
+                            alt="project1" 
+                            class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">세계일주 하기</h3>
+                                <p>돈 많이 벌기</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-type="number1">
+                        <a href="#" target="_blank">
+                        <img src="images/pngtree-fifa-world-cup-trophy-png-image_6477012.png" 
+                        alt="project2" 
+                        class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">월드컵 직관하러 가기</h3>
+                                <p>돈 많이 벌기</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-type="number1">
+                        <a href="#" target="_blank">
+                        <img src="images/web-20180313011308458332.png" 
+                        alt="project3" 
+                        class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">로또 1등 당첨</h3>
+                                <p>5천원 벌기</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-type="number2">
+                        <a href="#" target="_blank">
+                        <img src="images/urbanbrush-20190124013050201407.png" 
+                        alt="project4" 
+                        class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">게임 제작하기</h3>
+                                <p>코딩 공부 열심히 하기</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-type="number2">
+                        <a href="#" target="_blank">
+                        <img src="images/서울대학교로고-07.jpg" 
+                        alt="project5" 
+                        class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">서울대 가기</h3>
+                                <p>어쩔수 없이 공부 열심히 하기</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-type="number3">
+                        <a href="#" target="_blank">
+                        <img src="images/pngtree-cute-penguin-cartoon-illustration-png-image_2191773.jpg" 
+                        alt="project6" 
+                        class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">남극가서 팽귄보기</h3>
+                                <p>돈 많이 벌기</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-type="number3">
+                        <a href="#" target="_blank">
+                            <img src="images/pngtree-romantic-cosmic-background-picture-image_1337153.png" 
+                            alt="project7" 
+                            class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">우주 가기</h3>
+                                <p>돈 많이 벌기</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-type="number3">
+                        <a href="#" target="_blank">
+                        <img src="images/urban-20230405092225373596.jpg" 
+                        alt="project8" 
+                        class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">배드민턴 잘 치기</h3>
+                                <p>연습 하기</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Testimonials (닮고싶은 인물) -->
+        <section id="testimonials" class="section max-container">
+            <h2 class="title">닮고 싶은 인물</h2>
+            <p class="description">내게 영감을 주는 사람들</p>
+            <ul class="testimonials">
+                <li class="testimonial">
+                    <img
+                    src="images/20191224502519.jpg" 
+                    alt="people1"
+                    class="testimonial__img">
+                    <div class="testimonial__bubble">
+                        <p>가진 것 하나를 열로 나누면 우리가 가진 것이 십 분의 일로 줄어드는 속세의 수학과는 달리 가진 것 하나를 열로 나누었기에 그것이 천이나 만으로 부푼다는 하늘나라의 참된 수학, 끊임없는 나눔만이 행복의 원천이 될 수 있다는 행복정석을 그들과의 만남을 통해서 배우게 된다.
+                        </p>
+                        <p><a href="#" 
+                            class="testimonial__bubble__name">이태석</a>/신부</p>
+                    </div>
+                </li>
+                <li class="testimonial">
+                    <img 
+                    src="images/sub_558-02.png" 
+                    alt="people2"
+                    class="testimonial__img">
+                    <div class="testimonial__bubble">
+                        <p>"의사를 한 번도 못 보고
+                            죽어가는 가난한 사람들을 위해
+                            뒷산 바윗돌처럼
+                            항상 서 있는 의사가 되겠다."
+                        </p>
+                        <p><a href="#" 
+                            class="testimonial__bubble__name">장기려</a>/의사</p>
+                    </div>
+                </li>
+                <li class="testimonial">
+                    <img 
+                    src="images/images.jpg" 
+                    alt="people3"
+                    class="testimonial__img">
+                    <div class="testimonial__bubble">
+                        <p>나는 천국에 가서도 마땅히 조국의 독립을 위해 힘쓸 것이요 대한
+                            독립의 함성이 천국까지 들려오면 나는 기꺼이 춤을 추면서 만세를
+                            부를 것이오.
+                        </p>
+                        <p><a href="#" 
+                            class="testimonial__bubble__name">안중근</a>/독립운동가</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- Arrow up (무조건 맨 위로 가는 버튼) -->
+        <aside id="contact">
+            <a class="arrow-up" 
+            href="#" 
+            title="back to top">
+                <i class="fa-solid fa-arrow-up"></i> 
+            </a>
+        </aside>
+    </main>
+    <!-- Footer (맨 아래 부분 : 연락처) -->
+    <footer id="contact" class="section">
+        <div class="max-container">
+            <h2 class="title">문의 사항</h2>
+            <p class="description">sbjj0310@naver.com</p>
+            <ul class="contact__links">
+                <li>
+                    <a class="contact__link" 
+                    href="https://www.youtube.com/"
+                    target="_blank"
+                    title="my youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="contact__link" 
+                    href="https://www.youtube.com/"
+                    target="_blank"
+                    title="my youtube">
+                    <i class="fa-brands fa-square-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+            <p>Danjae Elemantary School in Chung-ju</p>
+        </div>
+    </footer>
+
+</body>
+</html>
